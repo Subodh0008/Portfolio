@@ -153,7 +153,7 @@ const Footer = () => {
             <div className="text-gray-500 dark:text-gray-400 text-sm">
               Kathmandu, Nepal <br />
               <span className="inline-block mt-1">
-                <i className="fas fa-phone-alt mr-1"></i> +977-98XXXXXXXX
+                <i className="fas fa-phone-alt mr-1"></i> +977-9821433583
               </span>
             </div>
           </div>
