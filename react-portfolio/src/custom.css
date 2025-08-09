@@ -1,0 +1,65 @@
+/* Custom styles migrated from original Index.html */
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #0ea5e9;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.active::after {
+    width: 100%;
+}
+
+.tech-icon {
+    transition: all 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: translateY(-5px);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.dark .gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #38bdf8, #818cf8);
+}
+
+.light .gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #0ea5e9, #3b82f6);
+}
+
+.toggle-checkbox:checked {
+    right: 0;
+    background-color: #0ea5e9;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #0ea5e9;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease;
+}
